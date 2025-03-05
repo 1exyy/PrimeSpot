@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "dev:client": "concurrently vite",
-    "dev:server": "json-server place.json",
+    "dev:server": "json-server data.json",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "prettier": "prettier --write src/**/*.ts",

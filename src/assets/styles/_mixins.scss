@@ -1,0 +1,7 @@
+@mixin text($size,$color) {
+  font-size: $size;
+
+  @if ($size == "14px") {
+    line-height: 24px;
+  }
+}
